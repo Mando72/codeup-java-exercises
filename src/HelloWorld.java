@@ -3,7 +3,7 @@ public class HelloWorld {
         System.out.println("Hello World");
 
 
-        int myFavoriteNumber = 6500;
+        int myFavoriteNumber = 75;
         System.out.println(myFavoriteNumber);
 
         String myString = "I like java!";
@@ -22,13 +22,13 @@ public class HelloWorld {
         float myNumber = 3.14f;
         System.out.println(myNumber);
 
-//        int x = 5;
-//        System.out.println(x++);
-//        System.out.println(x);
-//
-//        int x = 5;
-//        System.out.println(++x);
-//        System.out.println(x);
+        int e = 5;
+        System.out.println(e++);
+        System.out.println(e);
+
+        int h = 5;
+        System.out.println(++h);
+        System.out.println(h);
 
         int x = 4;
         x = x += 5;
