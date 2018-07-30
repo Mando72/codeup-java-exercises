@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+
 public class MethodsExercises {
     public static void main(String[] args) {
         int x = 12;
@@ -14,6 +16,7 @@ public class MethodsExercises {
         System.out.println(x + " " + "* " + y + " " + "is: " + xnum);
         int dnum = divNums(x, y);
         System.out.println(x + " " + "/ " + y + " " + "is: " + dnum);
+        System.out.println(modNums(12,6));
 //
 //        // testing exercise #2
         System.out.print("Enter a number between 1 and 10: ");
@@ -46,6 +49,12 @@ public class MethodsExercises {
     public static int divNums(int g, int h) {
         return g / h;
     }
+
+    public static int modNums(int i, int j) { return i % j ; }
+
+
+
+
 
     private static int getInteger(int min, int max) {
         Scanner sc = new Scanner(System.in);
