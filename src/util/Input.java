@@ -50,6 +50,10 @@ public class Input {
         return userInput;
     }
 
+    public double getDouble(String s) {
+        return 0;
+    }
+
     public double getDouble(){
         return Double.parseDouble(this.getString("Give me a decimal number"));
     }
