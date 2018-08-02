@@ -18,6 +18,20 @@ abstract class Quadrilateral extends Shape implements Measurable {
         return width;
     }
 
+    // since we don't know what kindof Quad it is,
+    // the process it's defined in each class
     abstract void setLength(double length);
     abstract void setWidth(double width);
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
+
+    @Override
+    public double getArea() {
+        return 0;
+    }
+
+
 }
