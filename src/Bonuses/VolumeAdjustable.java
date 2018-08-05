@@ -1,3 +1,5 @@
+package Bonuses;
+
 public interface VolumeAdjustable {
 
     public void volumeUp();
