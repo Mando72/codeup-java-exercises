@@ -1,3 +1,5 @@
+package Bonuses;
+
 public interface Tuneable {
 
     public void tuneInstrument();

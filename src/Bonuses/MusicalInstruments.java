@@ -1,23 +1,23 @@
-//Create an abstract class of MusicalInstrument that implements the Playable interface.
+//Create an abstract class of MusicalInstrument that implements the Bonuses.Playable interface.
 //
 //        MusicalInstrument should have a constructor that sets the value of a private String field of instrumentClassification (include getter and setter)
 //
-//        The Playable interface contains the following method definitions:
+//        The Bonuses.Playable interface contains the following method definitions:
 //
 //public void startMusic();
 //public void stopMusic();
 //
-//        Create a Tuneable interface with the following method definitions:
+//        Create a Bonuses.Tuneable interface with the following method definitions:
 //
 //public void tuneInstrument();
 //public void detuneInstrument();
 //
-//        Create a VolumeAdjustable interface with the following method definitions:
+//        Create a Bonuses.VolumeAdjustable interface with the following method definitions:
 //
 //public void volumeUp();
 //public void volumeDown();
 //
-//        Create Piano and Sax classes that both extend from MusicInstrument and implement Tuneable and VolumeAdjustable
+//        Create Piano and Sax classes that both extend from MusicInstrument and implement Bonuses.Tuneable and Bonuses.VolumeAdjustable
 //
 //        For both Piano and Sax classes, implement all needed methods by sout'ing out messages that make sense
 //
@@ -27,12 +27,12 @@
 //
 //        Create a MusicTest class with a main method to practice instantiating Piano and Sax objects of type Piano and Sax or the types of the Interfaces they implement. Add the following two methods to the MusicTest class to experiement with various instances of the Piano and Sax objects:
 //
-//public static void detuneRetune(Tuneable tuneableObj) {
+//public static void detuneRetune(Bonuses.Tuneable tuneableObj) {
 //        tuneableObj.detuneInstrument();
 //        tuneableObj.tuneInstrument();
 //        }
 //
-//public static void makeTwoStaccatoSounds(VolumeAdjustable va) {
+//public static void makeTwoStaccatoSounds(Bonuses.VolumeAdjustable va) {
 //        va.volumeUp();
 //        va.volumeDown();
 //        va.volumeUp();
